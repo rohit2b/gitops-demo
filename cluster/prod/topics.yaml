@@ -1,7 +1,7 @@
 apiVersion: platform.confluent.io/v1beta1
 kind: KafkaTopic
 metadata:
-  name: gitOps4Life
+  name: gitopsforlife
   namespace: confluent
 spec:
   replicas: 1
@@ -12,7 +12,7 @@ spec:
 apiVersion: platform.confluent.io/v1beta1
 kind: KafkaTopic
 metadata:
-  name: confluentRulez
+  name: confluentrulez
   namespace: confluent
 spec:
   replicas: 1
