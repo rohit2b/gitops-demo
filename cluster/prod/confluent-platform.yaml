@@ -158,7 +158,7 @@ spec:
         enabled: true
     ksqldb:
     - name: ksql-dev
-      url: https://ksqldb.confluent.svc.cluster.local:8088
+      url: https://ksqldb-tls.confluent.svc.cluster.local:8088
       tls:
         enabled: true
     connect:
