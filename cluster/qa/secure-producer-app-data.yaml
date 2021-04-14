@@ -35,8 +35,8 @@ spec:
         - |
           kafka-producer-perf-test \
             --topic ${HOSTNAME}  \
-            --record-size 524288 \
-            --throughput 64 \
+            --record-size 50 \
+            --throughput 1 \
             --producer.config /mnt/kafka.properties \
             --num-records 230400
         volumeMounts:
